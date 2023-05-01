@@ -1,0 +1,112 @@
+.mycard {
+    width: 470px;
+    height: 567px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsvg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.coin {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgba(110, 86, 248, 0.5);
+    backdrop-filter: blur(25px);
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -38%);
+    z-index: -50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fields {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+
+}
+
+.currvalue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currvalue span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #C5C5C5;
+}
+
+.currvalue .value {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: center;
+
+    color: #627EEA;
+}
+
+.row {
+    margin: 5px 0;
+}
+
+#ipf {
+    width: 100%;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 31px */
+    background: transparent;
+    color: #C5C5C5;
+    border: 1px solid rgba(110, 86, 248, 0.25);
+    border-radius: 5px;
+}
+
+/* #ipf>label { */
+label {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    /* identical to box height */
+    color: #DCDCEC !important;
+}
+
+.btn {
+    width: 100% !important;
+    height: 50px !important;
+    background: linear-gradient(94.37deg, #3387D5 -5.94%, #7A06C9 115.34%);
+    border-radius: 30px !important;
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 27px !important;
+    /* identical to box height */
+    color: #FFFFFF !important;
+}
